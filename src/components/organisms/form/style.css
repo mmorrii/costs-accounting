@@ -1,0 +1,15 @@
+.new-cost__controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    text-align: left;
+}
+
+.error-subtitle {
+    color: var(--color-error);
+    font-size: var(--text-size-sm);
+    margin-top: -15px;
+    margin-bottom: 15px;
+    text-align: left;
+}

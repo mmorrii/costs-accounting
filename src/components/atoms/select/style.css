@@ -1,0 +1,10 @@
+@import "../../../styles/_variables.css";
+
+select {
+    font: inherit;
+    padding: 0.5rem 3rem;
+    border-radius: 6px;
+    background-color: var(--color-primary);
+    color: var(--text-color);
+    border: 1px solid var(--color-default);
+}

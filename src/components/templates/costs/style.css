@@ -1,0 +1,9 @@
+@import "../../../styles/_variables.css";
+
+.costs {
+    margin: 0 auto;
+    max-width: 1500px;
+    padding: 1rem;
+    background-color: var(--color-secondary);
+    border-radius: 30px;
+}

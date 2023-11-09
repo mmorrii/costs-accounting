@@ -1,0 +1,20 @@
+:root {
+    /* Color */
+    --linear-gradient-0: linear-gradient(180deg, #AB14C3 -22.02%, #040DD6 167.26%);
+    --linear-gradient-45: linear-gradient(219deg, #AB14C3 -12.73%, #1B0CC9 137.88%);
+    --linear-gradient-225: linear-gradient(41deg, #AB14C3 -20.83%, #1B0CC9 144.74%);
+    --linear-gradient-315: linear-gradient(144deg, #AB14C3 -16.17%, #1B0CC9 139.02%);
+    --color-default: #5C5C5C;
+    --color-error: red;
+    --color-primary: #07061B;
+    --color-secondary: #131130;
+
+    /* Text */
+    --text-color: #fff;
+    --text-size-xl: 20px;
+    --text-size-lg: 18px;
+    --text-size-md: 16px;
+    --text-size-sm: 14px;
+    --text-size-xs: 12px;
+    --text-family: 'Roboto', sans-serif;
+}

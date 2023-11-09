@@ -1,0 +1,11 @@
+@import "../../../styles/_variables.css";
+
+button {
+    font: inherit;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    background: var(--linear-gradient-225);
+    color: #fff;
+    border-radius: 10px;
+    font-weight: bold;
+}

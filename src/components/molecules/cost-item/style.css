@@ -1,0 +1,43 @@
+@import "../../../styles/_variables.css";
+
+.cost-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.8rem;
+    margin: 1rem 0;
+    background-color: #07061B;
+    border-radius: 20px;
+}
+
+.cost-item__description {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.cost-item__title {
+    font-size: var(--text-size-xl);
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+.cost-item__price {
+    border-radius: 10px;
+    font-size: var(--text-size-xl);
+    background: var(--linear-gradient-45);
+    padding: 0.5rem 1.5rem;
+}
+
+.cost-item__icon {
+    align-self: flex-start;
+    margin-left: 20px;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.cost-item__icon:hover {
+    opacity: 1;
+}

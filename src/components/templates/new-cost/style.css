@@ -1,0 +1,10 @@
+@import "../../../styles/_variables.css";
+
+.new-cost {
+    margin: 0 auto 1.5rem;
+    max-width: 1500px;
+    background-color: var(--color-secondary);
+    padding: 1.5rem 1rem;
+    border-radius: 25px;
+    text-align: center;
+}

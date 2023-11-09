@@ -1,0 +1,22 @@
+@import "../../../styles/_variables.css";
+
+.costs-limit {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.costs-limit__title {
+    font-size: var(--text-size-md);
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.costs-limit input {
+    background-color: var(--color-primary);
+    color: var(--text-color);
+    border: 1px solid var(--color-default);
+    width: 150px;
+    text-align: center;
+}

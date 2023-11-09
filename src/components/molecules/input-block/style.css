@@ -1,0 +1,11 @@
+.new-cost__control label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+.new-cost__input {
+    width: 20rem;
+    height: 1.5rem;
+    max-width: 100%;
+}

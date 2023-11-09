@@ -1,0 +1,8 @@
+@import "../../../styles/_variables.css";
+
+.empty {
+    text-align: center;
+    font-weight: bold;
+    margin: 2.4rem auto 1.5rem;
+    font-size: var(--text-size-xl);
+}

@@ -9,15 +9,6 @@ export default function Form({ onClickButtonHandler, onSaveNewData }) {
 	const [date, setDate] = useState('')
 	const [isError, setIsError] = useState(false)
 	
-	const nameChangeHandler = (event) => {
-		setName(event.target.value)
-	}
-	const priceChangeHandler = (event) => {
-		setPrice(event.target.value)
-	}
-	const dateChangeHandler = (event) => {
-		setDate(event.target.value)
-	}
 	const submitHandler = (event) => {
 		event.preventDefault()
 		
@@ -49,7 +40,7 @@ export default function Form({ onClickButtonHandler, onSaveNewData }) {
 						id="name"
 						type="text"
 						valueData={name}
-						onChangeHandler={nameChangeHandler}
+						onChangeHandler={e => setName(e.target.value)}
 						onFocusHandler={() => setIsError(false)}
 					/>
 					<InputBlock
@@ -58,7 +49,7 @@ export default function Form({ onClickButtonHandler, onSaveNewData }) {
 						id="number"
 						type="number"
 						valueData={price}
-						onChangeHandler={priceChangeHandler}
+						onChangeHandler={e => setPrice(e.target.value)}
 						onFocusHandler={() => setIsError(false)}
 					/>
 					<InputBlock
@@ -67,7 +58,7 @@ export default function Form({ onClickButtonHandler, onSaveNewData }) {
 						id="date"
 						type="date"
 						valueData={date}
-						onChangeHandler={dateChangeHandler}
+						onChangeHandler={e => setDate(e.target.value)}
 						onFocusHandler={() => setIsError(false)}
 					/>
 				</div>

@@ -1,6 +1,7 @@
 {
   "homepage": "https://mmorrii.github.io/costs-accounting",
-  "name": "project-master-of-code-atomic-design",
+  "name": "project-with-atomic-design",
+  "author": "master-of-code",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
